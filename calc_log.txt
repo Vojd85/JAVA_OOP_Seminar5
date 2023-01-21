@@ -1,0 +1,22 @@
+янв. 17, 2023 10:28:59 PM Homeworks.Seminar5.Config start
+INFO: Результат: 65.2+3.657=68.857
+янв. 17, 2023 10:30:10 PM Homeworks.Seminar5.Config start
+INFO: Результат: 6734.875/2.3=2928.2065217391305
+янв. 17, 2023 10:30:30 PM Homeworks.Seminar5.Config start
+INFO: Результат: 34.0-8735.547=-8701.547
+янв. 17, 2023 10:31:05 PM Homeworks.Seminar5.Config start
+INFO: Результат: 2.0*56.0=112.0
+янв. 21, 2023 6:54:56 PM Homeworks.Seminar5.Config start
+INFO: Результат: 3.0/75.0=0.04
+янв. 21, 2023 6:55:57 PM Homeworks.Seminar5.Config start
+INFO: (-525i)+(-70-140i) = -75-115i
+янв. 21, 2023 7:04:53 PM Homeworks.Seminar5.Config start
+INFO: (-5+25i)-(-70-140i) = -75-115i
+янв. 21, 2023 7:06:45 PM Homeworks.Seminar5.Config start
+INFO: (36+43i)+(-170+220i) = -134+263i
+янв. 21, 2023 7:13:40 PM Homeworks.Seminar5.Config start
+INFO: Ошибка ввода операции: /
+янв. 21, 2023 7:24:57 PM Homeworks.Seminar5.Config start
+INFO: Ошибка ввода операции: s
+янв. 21, 2023 7:26:19 PM Homeworks.Seminar5.Config start
+INFO: Ошибка ввода операции: d
