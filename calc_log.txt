@@ -20,3 +20,21 @@ INFO: Ошибка ввода операции: /
 INFO: Ошибка ввода операции: s
 янв. 21, 2023 7:26:19 PM Homeworks.Seminar5.Config start
 INFO: Ошибка ввода операции: d
+янв. 24, 2023 12:35:03 AM Homeworks.Seminar5.Config start
+INFO: (1,000000+2,000000i)*(3,000000+4,000000i) = -5,000000+10,000000i
+янв. 24, 2023 12:43:53 AM Homeworks.Seminar5.Config start
+INFO: (3,0+4,0i)*(2,0+6,0i) = null
+янв. 24, 2023 12:48:00 AM Homeworks.Seminar5.Config start
+INFO: (1,0+2,0i)*(4,0-3,0i) = 10,0+5,0i
+янв. 24, 2023 12:49:16 AM Homeworks.Seminar5.Config start
+INFO: (3,0+2,0i)*(2,0+1,0i) = null
+янв. 24, 2023 12:52:04 AM Homeworks.Seminar5.Config start
+INFO: (5,0-4,0i)*(3,0-1,0i) = null
+янв. 24, 2023 12:55:22 AM Homeworks.Seminar5.Config start
+INFO: (7,0-4,0i)*(3,0+2,0i) = 2,2-2,0i
+янв. 24, 2023 12:55:54 AM Homeworks.Seminar5.Config start
+INFO: (5,0-4,0i)*(3,0-1,0i) = 1,1-0,7i
+янв. 24, 2023 11:55:45 AM Homeworks.Seminar5.Config start
+INFO: Результат: 56.0-34.0=22.0
+янв. 24, 2023 11:57:10 AM Homeworks.Seminar5.Config start
+INFO: (34,0-5,0i)*(-3,0-5,0i) = -3,7+5,4i

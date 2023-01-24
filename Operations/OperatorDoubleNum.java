@@ -1,4 +1,4 @@
-package Homeworks.Seminar5;
+package Homeworks.Seminar5.Operations;
 
 public class OperatorDoubleNum extends CalcNumber {
     public OperatorDoubleNum(){
@@ -20,13 +20,14 @@ public class OperatorDoubleNum extends CalcNumber {
     public double divisionNumbers() {
         return x / y;
     }
+
     @Override
-    public void getX(double val) {
-        super.x = val;
+    public <T extends Number> void getX(T val) {
+        super.x = (Double)val;
     }
     @Override
-    public void getY(double val) {
-        super.y = val;
+    public <T extends Number> void getY(T val) {
+        super.y = (Double)val;
     }
 
 }

@@ -1,10 +1,8 @@
-package Homeworks.Seminar5;
+package Homeworks.Seminar5.Interfaces;
 
-public interface I__DoubleNum {
+public interface I__DoubleNum extends I__GetNumbers{
     double sumNumbers();
     double subtractNumbers();
     double multNumbers();
     double divisionNumbers();
-    void getX(double val);
-    void getY(double val);
 }

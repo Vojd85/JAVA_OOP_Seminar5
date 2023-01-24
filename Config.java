@@ -4,6 +4,11 @@ import java.io.IOException;
 import java.util.Scanner;
 import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
+
+import Homeworks.Seminar5.Interfaces.I__Complex;
+import Homeworks.Seminar5.Interfaces.I__DoubleNum;
+import Homeworks.Seminar5.Operations.Complex;
+
 import java.util.logging.FileHandler;
 
 public class Config {
@@ -32,10 +37,12 @@ public class Config {
             int choose = sc.nextInt();
             switch(choose){
                 case 1:
-                    double num1 = view.getValue();
-                    double num2 = view.getValue();
+                    System.out.println("Введите первое число: ");
+                    double num1 = view.getDouble();
+                    System.out.println("Введите второе число: ");
+                    double num2 = view.getDouble();
                     char op = view.getOperation();
-                    modelD.getX(num1);
+                    modelD.getX(num1);;
                     modelD.getY(num2);
                     double res;
                     switch(op){
@@ -70,7 +77,7 @@ public class Config {
                     System.out.println("Введите поля для второго числа");
                     Complex c2 = view.getComplex();
                     Complex temp = new Complex();
-                    char oper = view.getOperationD();
+                    char oper = view.getOperation();
                     switch(oper){
                         case '+':
                             temp = modelC.add(c1, c2);
@@ -80,6 +87,16 @@ public class Config {
                         case '-':
                             temp = modelC.sub(c1, c2);
                             logger.info(String.format("(%s)-(%s) = %s", c1, c2, temp));
+                            view.printRes(temp);
+                            break;
+                        case '*':
+                            temp = modelC.mult(c1, c2);
+                            logger.info(String.format("(%s)*(%s) = %s", c1, c2, temp));
+                            view.printRes(temp);
+                            break;
+                        case '/':
+                            temp = modelC.div(c1, c2);
+                            logger.info(String.format("(%s)*(%s) = %s", c1, c2, temp));
                             view.printRes(temp);
                             break;
                         default:
